@@ -1,0 +1,875 @@
+
+/* 
+  Color combos: 336699 FFCC66 FFFFFF 003366
+*/
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden !important;
+}
+
+body {
+  font-family: 'Karla';
+  font-size: 1rem;
+  background-image: url('./img/bg-image.jpg');
+  max-width: 100%;
+  height: auto; 
+  background-repeat: no-repeat;
+  background-size: center;
+  
+}
+
+
+
+.navbar {
+  background-color: #800080 !important;
+  padding: 0.6rem;
+  color: #fff;
+}
+
+/* Benjamin Kwingwa Lidman heading */
+
+#bkl-intro {
+  margin-top: 15rem;
+  font-family: 'Roboto';
+  
+}
+
+#bkl-intro h1 {
+  color: #fff;
+  font-weight: 800;
+  font-size: 3rem;
+  
+}
+
+#bkl-intro h2 {
+  color: #cc9966;
+  font-weight: 600;
+  font-size: 2.5rem;
+  
+}
+
+.nav-link {
+  margin-left: auto;
+}
+
+.nav-link, .navbar-brand {
+  color: #fff;
+}
+
+.navbar b {
+  margin-top: -0.3rem;
+}
+
+/* Navbar font awesome links  */
+
+.navbar li i {
+   margin-left: 1rem; 
+}
+
+
+
+
+.container-fluid{
+  height: 100%;
+}
+
+.navbar ul {
+  margin-right: 10rem !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-nav .navbar-link:focus {
+  color: rgba(255, 255, 255, 255);
+}
+
+.nav-link:focus {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Navbar toggler button */
+
+
+
+/* End of navbar css */
+
+
+/* Row 1 introduction */
+
+  #row-1 {
+  margin-top: 15rem;
+  display: block;
+  /* background-color: rgba(255, 255, 255, 0.95);  */
+  background-color: #336699;
+  padding: 6rem;
+  color: #fff;
+  /* margin-bottom: 5rem; */
+}
+
+#row-1 a {
+  color: #cc9966;
+}
+
+#row-user i {
+  margin-left: 48.5%;
+  margin-top: -2rem;
+}
+
+#profilepic { 
+  margin-left: 20%;
+  width: 60% !important;
+  margin-bottom: 10% !important; 
+
+}
+
+#profilepic-text-box {
+  margin-top: 1rem;
+  margin-left: 0%;
+}
+
+#profilepic-text-box p {
+  margin-bottom: 4rem;
+}
+
+#profilepic, #profilepic-text-box {
+  margin-bottom: 1rem;
+}
+
+#row1-introduction {
+  margin-top: -4rem;
+  margin-bottom: 6rem;
+}
+
+#row-1 p {
+  font-size: 1.5rem;
+}
+
+#row-1-second {
+  margin-top: 10rem;
+}
+
+#row-1-second p {
+  margin-left: 5rem;
+  margin-top: -1rem;
+}
+
+  
+
+/* Row 2 programmeringsspråk*/
+
+.container-fluid #row-2 {
+  display: block;
+  background-color: #29527a; 
+  padding: 10rem;
+  color: #fff;
+}
+
+#font-icons {
+  margin-left: 4rem;
+}
+
+
+#row-2-title h1 {
+  margin-top: -8rem !important;
+  margin-bottom: 12rem;
+  
+}
+
+
+/* När jag kör media queries för medium så bör det vara mer margin left. */
+#row-2 i {
+  margin-top: 20%;
+  margin-left: 12%;
+  font-size: 3rem;
+}
+
+#row-2 .col-3 {
+  width: 0% !important;
+}
+
+#row-2 .col-6 {
+  width: 50% !important;
+}
+
+
+
+
+/* Row 3 Projects */
+
+#row-3 {
+  /* margin-top: 5rem; */
+  display: block;
+  /* background-color: rgba(255, 255, 255, 0.95);  */
+  background-color: #2666a6;
+  padding: 10rem;
+  color: #fff;
+}
+
+#row-3-title {
+  margin-top: -4rem;
+  margin-left: 50%;
+}
+
+#row-3-projects {
+  margin-top: 8rem;
+  margin-left: 50%;
+}
+
+#row-3-project-description h4 {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+#row-3-project-description p {
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+}
+
+/* Briefcase Icon */
+
+#row-briefcase {
+  margin-left: 63%;
+  margin-top: 2rem;
+}
+
+#btn-github {
+  margin-top: 2rem;
+}
+
+#github-project-icon:hover {
+  color: #cc9966;
+}
+
+.btn-purple {
+  width: 80%;
+   background-color: #800080; 
+  /* background-color: #d79859; */
+  /* border-color: #800080; */
+  border: none;
+  margin-left: 10%;
+  color: #fff;
+  padding: 0.6rem;
+  border-radius: 0;
+  margin-bottom: 15%;
+}
+
+
+#github-project-icon {
+  margin-left: 48%;
+}
+
+
+ .fa-github {
+  /* margin-top: 150% !important; */
+  /* margin-left: 1rem; */
+  color: #fff;
+
+  
+}
+
+
+
+
+/* Row 4  Contact */
+
+#row-4 {
+  /* margin-top: 5rem; */
+  display: block;
+  background-color: #29527a;
+  padding: 10rem;
+  color: #fff;
+}
+
+
+#row-4 .form-control {
+
+  padding: 1.2rem;
+  border-radius: 0;
+  margin-bottom: 2rem;
+
+}
+
+#row-4 .row .col-8 {
+  margin-top: -2rem;
+}
+
+#row-4 h1 {
+  margin-bottom: 2rem;
+}
+
+.row #message-icon {
+  margin-top: 2rem !important;
+}
+
+.row #message-icon i {
+  margin-left: 47%;
+  font-size: 3rem;
+  margin-bottom: 10rem;
+  
+}
+
+#row-4 .col-8 i {
+  margin-top: 1rem;
+}
+
+
+
+#row-4 .col-8 i.fa-map-marker-alt {
+  margin-left: 40%;
+  margin-top: 4rem;
+}
+
+
+
+#row-4 .col-8 i.fa-envelope-open {
+  margin-left: 30%;
+  margin-top: 5rem;
+}
+
+#row-4 .col-8 b {
+  font-size: 1.5rem;
+  
+}
+
+
+
+
+#row-4 .col-8 i.fa-cut {
+  margin-left: 1rem;
+}
+
+/* Copy button */
+
+#copyBtn {
+  width: 5rem;
+  background-color: #d79859;
+  color: #fff;
+  margin-top: -0.5rem;
+  border-radius: 0;
+  margin-left: 1rem;
+}
+
+#email-text
+{
+  visibility: hidden;
+}
+
+#row-5 {
+
+   
+  /* margin-top: 5rem; */
+  display: block;
+  background-color: #800080;
+  padding: 0.7rem;
+  color: #fff;
+  margin-left: -1rem;
+  margin-right: -1rem;
+
+}
+
+#row-5 .col-12 b {
+            
+  margin-left: 44%;
+}
+
+.btn-purple:hover {
+  background-color: #120a8f;
+  outline: solid 1px #000080;
+  opacity: 0.9;
+  color: #ffd700;
+}
+
+#copyBtn:hover {
+  background-color: #2867a6;
+  color: #e6be96;
+}
+
+.btn-purple, .btn:active {
+  
+  border-color: #fff;
+}
+
+#envelope-email a {
+  color: #fff;
+}
+
+
+/* Media Queries for small mobiles (320PX - 500 PX) */
+@media (min-width: 320px) and (max-width: 500px) {
+
+  /* Navbar mobile */
+   /* .navbar-toggler {
+    margin-left: 4.5rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+  }  */
+
+  /* .navbar-collapse {
+    -ms-flex-preferred-size: 40% !important;
+    flex-basis: 40% !important;
+  }
+   */
+
+   
+
+
+  
+
+  .navbar-toggler {
+    padding: .25rem .25rem;
+  }
+
+  .navbar .navbar-brand {
+    /* margin-left: 10% !important; */
+    margin-top: 1rem;
+    width: 10%;
+  }
+
+  .navbar-brand span.material-icons {
+    margin-left: 300%;
+    margin-top: -50%;
+  }
+
+  .navbar b {
+    margin-left: 10rem;
+    margin-top: -13rem;
+    padding: 0 !important ;
+    align-self: auto !important;
+  }
+
+  .nav-link {
+    margin-left: 0rem !important;
+    font-size: 0.8rem;
+  }
+
+  /* End of Navbar */
+
+  #bkl-intro {
+    align-self: center;
+    margin-top: 40%;
+    margin-bottom: -20%;
+  }
+
+  #bkl-intro h1 {
+    font-size: 1.2rem;
+  }
+
+  #bkl-intro h2 {
+    font-size: 1.3rem;
+  }
+
+  /* Start of row 1 introduction  */
+
+  #row-1 {
+    padding: 5rem;
+    padding-right: 4rem;
+  }
+
+  /* Row 1 titel */
+
+  #row1-introduction {
+    font-size: 1.4rem !important;
+  }
+  
+  /* Ikon FA row 1 */
+  #row-user {
+    margin-top: -30%;
+    font-size: 0.5rem;
+    margin-left: -13%;
+  }
+ 
+ 
+  #profilepic {
+    /* margin-left: 35% !important; */
+    width: 8rem !important;
+    margin-top: -80%;
+    margin-left: 2%;
+  } 
+  
+
+  #profilepic-text-box {
+    margin-left: -23%;
+    margin-top: -5%;
+    margin-bottom: -5%;
+  }
+
+  
+
+
+   /* Adjust text in the box */
+  #profilepic-text-box p {
+    font-size: 1rem;
+    /* padding-left: 2rem;
+    padding-right: 2rem; */
+    width: 150% !important;
+  }
+
+  #profile-text-box-2 {
+    margin-top: -20%;
+  }
+
+
+  /* Row 2 programmeringsspråk */
+
+  .col-6 #row-2-title {
+    /* margin-left: -80% !important; */
+    font-size: 1.3rem;
+    margin-top: -8rem;
+    
+
+  }
+
+  #row-2-title h1 {
+    font-size: 1.5rem;
+    margin-right: 25rem !important;
+  }
+
+  #row-2 .col-6 {
+    margin-left: -6rem;
+    font-size: 1.5rem;
+  }
+
+  #row-2 .col-6 h1 {
+    font-size: 1.5rem;
+  }
+
+  #languages_programming
+  {
+    margin-left: -7.5rem;
+    margin-top: -10rem;
+  }
+
+  #row-2 .col-4 {
+
+    margin-top: 20%;
+    margin-left: 3.8rem;
+    margin-bottom: -2rem;
+  }
+
+  
+
+  .fa-4x {
+    font-size: 2rem !important;
+  }
+
+  #row-2 .fa .fab {
+    vertical-align: middle;
+  }
+
+  .col-3 {
+    margin-top: 5rem;
+    margin-left: 30% !important;
+  }
+
+  #row-2 i {
+    margin-right: 15%;
+  }
+
+  .fa-fw {
+    width: 2rem;
+  }
+
+
+
+  /* Row 3 Projects */
+
+  #row-3-title {
+    margin-left: -2rem;
+    margin-top: -8rem;
+    font-size: 2rem;
+    /* margin-top: -1400%; */
+  }
+
+
+  #row-briefcase i {
+    margin-left: -0.8rem !important;
+    
+  }
+
+  #row-3 i {
+    font-size: 1.5rem;
+  }
+
+  #row-3-projects {
+    margin-left: -15rem;
+  }
+
+  #row-3-projects .col-12 {
+    margin-left: 8rem;
+  }
+
+
+  
+
+ /* Contact section */
+
+
+ #row-4-contact {
+   margin-left: -2.5rem;
+   margin-top: -6rem;
+   margin-bottom: -12rem !important;
+ }
+
+#message-icon .col-8  {
+  
+  margin-top: -7rem !important;
+  margin-left: 0.2rem !important;
+ }
+
+ #message-icon .col-8 i {
+   font-size: 1.5rem;
+ }
+
+
+
+#submit-form {
+  width: 250%;
+  margin-left: -1.2rem;
+}
+
+
+
+
+#row-4 .img-fluid {
+  max-width: 15rem;
+  margin-left: -6rem;
+
+}
+
+#row-4 #contact-location {
+  margin-left: -1.4rem;
+}
+
+#row-4 #contact-location b {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  margin-left: -3.5rem;
+}
+
+#row-4 #envelope-email {
+  margin-left: 0.5rem;
+}
+
+#row-4 #envelope-email b {
+  font-size: 1rem;
+  margin-left: -6.9rem;
+}
+
+#row-4 #copyBtn {
+  margin-top: 1rem;
+  margin-left: -1.1rem;
+}
+  
+
+
+  /* End of media queries for small phones 320px - 500px */
+
+
+
+#row-5 {
+
+   
+    /* margin-top: 5rem; */
+    display: block;
+    background-color: #800080;
+    padding: 0.5rem;
+    color: #fff;
+  
+}
+
+#row-5 .col-8 {
+  width: 100%;
+}
+
+#row-5 .col-12 {
+  font-size: 0.8rem;
+  margin-left: 8%;
+}
+
+#row-5 .col-12 b {
+  margin-left: 15%;
+}
+
+
+
+
+
+
+}
+
+
+/* Media Queries for smaller phones */
+  @media (min-width:501px) and (max-width: 990px) {
+    
+
+    /* Slut av navbar */
+
+
+    /* Innan introduktion */
+    
+    #bkl-intro h1 {
+
+      font-size: 2rem;
+    }
+
+    #bkl-intro h2 {
+      font-size: 2rem;
+    }
+
+    /* Introduktion */
+
+    /* #row1-introduction {
+      margin-left: 15%;
+    } */
+   
+    #row-user {
+      margin-left: -8%;
+      margin-top: -3rem;
+      margin-bottom: 15rem;
+    }
+
+    #profilepic {
+      align-self: center;
+      margin-left: 28% !important;
+      width: 30%; 
+      margin-top: -5rem;
+    }
+
+
+    #profilepic-text-box {
+      margin-top: 2%;
+      margin-left: -1%;
+    }
+
+
+
+    /* Programmeringsspråk */
+
+    #row-2-title {
+      margin-top: -40%;
+      margin-bottom: 50%;
+    }
+
+
+
+    #row-2-title h1 {
+      font-size: 0.3rem !important;
+    }
+
+    #row-2 .col-4 i {
+      margin-left: -25%;
+      font-size: 3rem;
+    }
+
+    #languages_programming {
+      margin-top: 2rem;
+    }
+
+     /* Projects */
+
+      #row-3-title {
+        margin-left: 0;
+        margin-top: -6rem;
+        
+      }
+  
+      #row-3-title h1 {
+      font-size: 1.4rem;
+    
+      }
+
+
+      
+
+
+  }
+
+
+  @media (min-width:700px) and (max-width: 1200px) 
+  {
+    /* Justera introduction och lite annat för tablets */
+
+
+
+
+    /* Programmeringsspråk */
+
+    #row-2 .col-12 {
+      margin-left: 30%;
+    }
+
+
+  }
+
+ /* Media for 1700px to 1920 px*/
+
+  @media (min-width: 1700px) and (max-width: 1920px) {
+
+
+    #languages_programming {
+      margin-left: 8rem;
+    }
+
+
+    #row-briefcase i {
+      margin-left: 1.4rem !important;
+      
+    }
+
+
+
+    #message-icon .col-8  {
+  
+      margin-left: 0.65rem !important;
+     }
+
+
+     #row-5 b {
+
+      margin-left: 47.5%;
+    }
+
+
+  }
+
+   /* Media for 1366px to 1440 px*/
+
+  @media (min-width:1366px) and (max-width: 1440px) {
+
+    #row-4 .col-8 b{
+      font-size: 1.2rem ;
+    }
+
+    #row-4 .col-8 i.fa-map-marker-alt {
+      margin-left: 38%;
+      margin-top: 4rem;
+    }
+   
+   
+    #row-4 .col-8 i.fa-envelope-open {
+      margin-left: 22%;
+      margin-top: 4rem;
+    }
+
+    #row-5 b {
+
+      margin-left: 47%;
+    }
+
+
+  }
+
+
+  
+
+
+/* body {
+  background-image: url(./img/bg-image.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: center;
+} */ 
